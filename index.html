@@ -3,10 +3,47 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.box{
+			width: 500px;
+			height: 300px;
+			border: 1px solid red;
+			position: relative;
+		}
+		input{
+			width: 300px;
+			height: 30px;
+			text-align: center;
+			margin-left: 100px;
+			
+		}
+		.ipt{
+			margin:50px auto;
+			margin-left: 100px;
+
+
+		}
+		#btn{
+			position: absolute;
+			width: 100px;
+			height: 30px;
+			border-radius: 5px;
+			border: none;
+			bottom: 20%;
+			left: 200px;
+		}
+	</style>
 </head>
 <body>
-	用户名：<input type="text">
-	密码：<input type="text">
-	
+	<div class="box">
+		<input type="text" class="ipt" placeholder="请输入用户名"><br>
+		<input type="text" class="ipt02" placeholder="请输入密码">
+		<button id="btn">提交</button>
+
+	</div>
 </body>
 </html>
